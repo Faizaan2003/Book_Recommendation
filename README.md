@@ -6,10 +6,10 @@ The Book Recommendation System uses collaborative filtering, a popular method fo
 
 ### Demo images
 
-![Project Screenshot](images/WhatsApp Image 2024-06-26 at 3.14.23 PM.jpeg)
-![Project Screenshot](images/WhatsApp Image 2024-06-26 at 3.14.56 PM.jpeg)
-![Project Screenshot](images/WhatsApp Image 2024-06-26 at 3.10.38 PM.jpeg)
-![Project Screenshot](images/WhatsApp Image 2024-06-26 at 3.10.52 PM.jpeg)
+![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.14.23 PM.jpeg)
+![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.14.56 PM.jpeg)
+![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.10.38 PM.jpeg)
+![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.10.52 PM.jpeg)
 
 
 ### Features
@@ -59,28 +59,28 @@ Follow these steps to get the project up and running on your local machine:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-repository.git
+     git clone https://github.com/yourusername/your-repository.git
    ```
 2. Navigate to the backend directory:
    ```
-   cd backend
+     cd backend
    ``` 
 3. Set up a virtual environment (optional but recommended):
    ```
-   python -m venv venv
+     python -m venv venv
    ```
 4. Activate the virtual environment:
    On Windows:
      ```
-        venv\Scripts\activate
+       venv\Scripts\activate
      ```
    On macOS/Linux:
      ```
-        source venv/bin/activate
+       source venv/bin/activate
      ```
 5. Install dependencies:
    ```
-        pip install -r requirements.txt
+     pip install -r requirements.txt
    ```
 6. Run the Flask application:
    ```
@@ -92,15 +92,15 @@ The backend server will start running at http://localhost:5000
 ### Frontend (React Application)
 1. Navigate to the frontend directory:
    ```
-   cd ../frontend
+     cd ../frontend
    ```
 2. Install dependencies:
    ```
-   npm install
+     npm install
    ```
 3. Start the React development server:
    ```
-   npm run dev
+     npm run dev
    ```
 
 The frontend server will start running at http://localhost:3000.

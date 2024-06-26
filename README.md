@@ -4,7 +4,7 @@ This project based on machine learning.It is a web-based book recommendation sys
 ## Project Overview
 The Book Recommendation System uses collaborative filtering, a popular method for making personalized recommendations by analyzing user interactions with content. When a user logs in, the system recommends books based on the preferences of similar users, enhancing the user experience by providing tailored suggestions. Additionally, users can add books to their favorites list.The recommendation model is built using the k-nearest neighbors (KNN) algorithm.
 
-### Demo images
+### Demo Images
 
 **Landing Page**
 
@@ -73,7 +73,7 @@ Follow these steps to get the project up and running on your local machine:
 
 1. Clone the repository:
    ```
-     git clone https://github.com/yourusername/your-repository.git
+     git clone https://github.com/Faizaan2003/Book_Recommendation.git
    ```
 2. Navigate to the backend directory:
    ```

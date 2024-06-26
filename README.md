@@ -6,10 +6,24 @@ The Book Recommendation System uses collaborative filtering, a popular method fo
 
 ### Demo images
 
-![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.14.23 PM.jpeg)
-![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.14.56 PM.jpeg)
-![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.10.38 PM.jpeg)
-![Project Screenshot](./images/WhatsApp Image 2024-06-26 at 3.10.52 PM.jpeg)
+**Landing Page**
+
+![Image 1](images/1.jpeg)
+
+
+**Login Page**
+
+![Image 2](images/2.jpeg)
+
+
+**Home Page**
+
+![Image 3](images/3.jpeg)
+
+
+**Favourite Books Page**
+
+![Image 4](images/4.jpeg)
 
 
 ### Features

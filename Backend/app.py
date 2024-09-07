@@ -3,14 +3,17 @@ from flask_cors import CORS
 import numpy as np
 import pandas as pd
 import jwt
+from dotenv import load_dotenv
+import os
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_pymongo import PyMongo
 from datetime import datetime, timedelta
 
+load_dotenv()
 app = Flask(__name__)
 CORS(app)
-SECRET_KEY = 'S3CRET'
-app.config['MONGO_URI'] = 'mongodb+srv://chandupk112244:chandu1112@cluster0.1ifrdwe.mongodb.net/Book_Recommendation'
+SECRET_KEY = os.getenv('secret')
+app.config['MONGO_URI'] = os.getenv('MONGODB_URI')
 mongo = PyMongo(app)
 
 popular = pd.read_pickle('popular.pkl')

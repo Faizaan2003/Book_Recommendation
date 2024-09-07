@@ -1,7 +1,9 @@
 # Book Recommendation System
+
 This project based on machine learning.It is a web-based book recommendation system that leverages collaborative filtering to suggest books to users based on the user ratings to the books. The application includes proper authentication allowing logged-in users to access the web app for one hour. Users can also add books to their favorites for quick access.
 
 ## Project Overview
+
 The Book Recommendation System uses collaborative filtering, a popular method for making personalized recommendations by analyzing user interactions with content. When a user logs in, the system recommends books based on the preferences of similar users, enhancing the user experience by providing tailored suggestions. Additionally, users can add books to their favorites list.The recommendation model is built using the k-nearest neighbors (KNN) algorithm.
 
 ### Demo Images
@@ -10,23 +12,20 @@ The Book Recommendation System uses collaborative filtering, a popular method fo
 
 ![Image 1](images/1.jpeg)
 
-
 **Login Page**
 
 ![Image 2](images/2.jpeg)
-
 
 **Home Page**
 
 ![Image 3](images/3.jpeg)
 
-
 **Favourite Books Page**
 
 ![Image 4](images/4.jpeg)
 
-
 ### Features
+
 - **Collaborative Filtering:** Recommends books based on user behavior and preferences using the KNN algorithm.
 - **Authentication:** Secure login with JSON Web Tokens (JWT) and session management, allowing access for one hour.
 - **Favorites:** Users can add books to their favorites for quick access.
@@ -51,7 +50,7 @@ The Book Recommendation System uses collaborative filtering, a popular method fo
 - **React:** JavaScript library for building user interfaces.
 - **Recoil:** State management library for React applications.
 - **Material-UI:** React component library for implementing Google's Material Design.
-  
+
 ### Additional Tools
 
 - **Git:** Version control system for tracking changes and collaborating with others.
@@ -78,20 +77,20 @@ Follow these steps to get the project up and running on your local machine:
 2. Navigate to the backend directory:
    ```
      cd backend
-   ``` 
+   ```
 3. Set up a virtual environment (optional but recommended):
    ```
      python -m venv venv
    ```
 4. Activate the virtual environment:
    On Windows:
-     ```
-       venv\Scripts\activate
-     ```
+   ```
+     venv\Scripts\activate
+   ```
    On macOS/Linux:
-     ```
-       source venv/bin/activate
-     ```
+   ```
+     source venv/bin/activate
+   ```
 5. Install dependencies:
    ```
      pip install -r requirements.txt
@@ -104,6 +103,7 @@ Follow these steps to get the project up and running on your local machine:
 The backend server will start running at http://localhost:5000
 
 ### Frontend (React Application)
+
 1. Navigate to the frontend directory:
    ```
      cd ../frontend
@@ -117,13 +117,13 @@ The backend server will start running at http://localhost:5000
      npm run dev
    ```
 
-The frontend server will start running at http://localhost:3000.
+The frontend server will start running at http://localhost:5173.
 
 ## Usage
 
 ### Accessing the Application
 
-- **Frontend:** Open your web browser and navigate to [http://localhost:3000].
+- **Frontend:** Open your web browser and navigate to [http://localhost:5173].
 - **Backend:** The backend API will be running at [http://localhost:5000].
 
 ### API Endpoints
@@ -139,4 +139,3 @@ The available API endpoints and their usage, such as:
 - **POST /favorites/add:** Add a book to the user's favorites.
 - **GET /favorites:** Retrieve the user's list of favorite books.
 - **POST /favorites/delete:** Add a book to the user's favorites.
-
